@@ -1,0 +1,165 @@
+.div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.image {
+  width: 20%;
+  height: 100%;
+}
+.div2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url('https://media.licdn.com/dms/image/C4D12AQEeKAn9dPLbhw/article-cover_image-shrink_600_2000/0/1616667695311?e=2147483647&v=beta&t=KTbbDeJ4Wwf6KFCPZ0Q1Et1jbaD7d81SHbTx-NVs3QA');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 99%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  text-align: center;
+}
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  padding: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+
+.h1 {
+  color: deepskyblue;
+  font-size: 42px;
+  height: 10%;
+  width: 100%;
+}
+.input {
+  border-radius: 5px;
+  height: 5%;
+  width: 80%;
+  color: white;
+  border-width: 3px;
+  margin-right: 10px;
+  padding-left: 15px;
+  background-color: transparent;
+}
+.textarea {
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 80%;
+  color: white;
+  background-color: transparent;
+  margin-right: 10px;
+  padding-left: 15px;
+  border-width: 3px;
+  padding-top: 10px;
+}
+.statusDiv1 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  width: 80%;
+  height: auto;
+  border-style: solid;
+  border-color: aquamarine;
+}
+.statusDiv2 {
+  width: 80%;
+  height: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.heading {
+  color: deepskyblue;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 16px;
+}
+.checkboxDiv1 {
+  width: 80%;
+  border-width: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: brown;
+}
+.checkboxDiv2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+.checkboxInput {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@keyframes colorChange {
+  0% {
+    border: 3px solid rgb(228, 149, 12);
+  }
+  33.33% {
+    border: 3px solid rgb(57, 236, 233);
+  }
+  66.66% {
+    border: 3px solid rgb(205, 44, 149);
+  }
+  100% {
+    border: 3px solid rgb(209, 204, 42);
+  }
+}
+
+form,
+input,
+textarea,
+.statusDiv1,
+.checkboxDiv1,
+.addBtn {
+  animation: colorChange 6s infinite; /* 6s for 3 colors, change to 2s for 3 colors in 2s */
+}
+.addBtn {
+  background-color: transparent;
+  border-radius: 8px;
+  height: 5%;
+  width: 30%;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.addBtn:hover {
+  background-color: rgb(124, 79, 171);
+}
+.todoUl {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}

@@ -1,0 +1,131 @@
+.li {
+  list-style: none;
+  border-radius: 5px;
+
+  height: 5%;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin: 2px;
+  color: black;
+}
+li:nth-child(1) {
+  background-color: rgb(164, 131, 247);
+}
+
+li:nth-child(2) {
+  background-color: rgb(195, 59, 149);
+}
+
+li:nth-child(3) {
+  background-color: rgb(132, 227, 132);
+}
+
+li:nth-child(4) {
+  background-color: rgb(234, 111, 189);
+}
+li:nth-child(5) {
+  background-color: rgb(225, 227, 132);
+}
+li:nth-child(6) {
+  background-color: rgb(126, 59, 177);
+}
+.liClicked {
+  list-style: none;
+  border-radius: 10px;
+
+  height: auto;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2px;
+  flex-wrap: wrap;
+}
+.editMode {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 5%;
+}
+.icons {
+  height: 90%;
+  width: 5%;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+}
+.titlePara {
+  cursor: pointer;
+}
+.itemDiv1 {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.title {
+  border: 2px solid rgb(80, 196, 229);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.describe {
+  border: 2px solid rgb(80, 196, 229);
+  padding: 5px;
+  border-radius: 5px;
+  overflow: auto;
+  overflow-y: hidden;
+  width: 80%;
+  height: auto;
+}
+.asigneesUl {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+.asigneesLi {
+  border-radius: 30px;
+  border: 2px solid rgb(80, 196, 229);
+  padding: 5px;
+}
+
+.asigneesLi:nth-child(1) {
+  background-color: rgb(79, 38, 183);
+}
+
+.asigneesLi:nth-child(2) {
+  background-color: rgb(71, 185, 116);
+}
+
+.asigneesLi:nth-child(3) {
+  background-color: rgb(198, 27, 152);
+}
+
+.asigneesLi:nth-child(4) {
+  background-color: rgb(199, 105, 22);
+}
+.asigneesLi:nth-child(5) {
+  background-color: rgb(11, 216, 220);
+}

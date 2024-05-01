@@ -1,0 +1,21 @@
+.loginDiv {
+  background-image: url('https://humanyze.com/wp-content/uploads/2020/11/Draft_03_01.gif');
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 150px;
+}
+.loginH1 {
+  color: orangered;
+  font-family: Roboto;
+  font-size: 42px;
+}
+.loginBtn {
+  height: 10%;
+  width: 10%;
+  border-radius: 10px;
+  cursor: pointer;
+}
